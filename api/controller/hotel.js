@@ -38,7 +38,7 @@ export const deleteHotel = async (req, res, next) => {
     }
 }
 
-//get
+//get by id
 
 
 export const getHotel = async (req, res, next) => {
