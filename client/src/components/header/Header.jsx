@@ -7,6 +7,7 @@ import { DateRangePicker } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import "./header.css"
+import List from '../../pages/list/List';
 
 const Header = ({ type }) => {
     const [openDate, setOpenDate] = useState(false);
@@ -61,8 +62,9 @@ const Header = ({ type }) => {
                     </div>
                 </div>
                 {type !== "list" &&
-                    <> <h1 className="headerTitle">Find your kind of vacation rental</h1>
-                        <p className="headerDesc">
+                    <> 
+                    <h1 className="headerTitle">Find your kind of vacation rental</h1>
+                         <p className="headerDesc">
                             Easy to book, hard to say goodbye to
                         </p>
 
@@ -134,12 +136,15 @@ const Header = ({ type }) => {
                                 </div>}
                             </div>
                             <div className="headerSearchItem">
-                                <button className="headerBtn">
+                                <button className="headerBtn" onClick={()=> {<List/>}
+                            }>
                                     Search
                                 </button>
                             </div>
                         </div>
-                    </>}
+                    </>
+                    
+                    }
             </div>
         </div>
     )
