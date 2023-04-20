@@ -1,122 +1,119 @@
-.header{
-    background-color: #003580;
+.header {
+  background-color: #003580;
 
-    color: white;
-    display: flex;
-    justify-content: center;
-    position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-.headerContainer{
-    width: 100%;
-    max-width: 1024px;
-    margin: 20px 0px 100px 0px;
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
 }
 
-.headerContainer.listMode{
-    margin: 20px 0px 0px 0px;
-
+.headerContainer.listMode {
+  margin: 20px 0px 0px 0px;
 }
-.headerList{
-    display: flex;
-    gap: 40px;
-    margin-bottom: 50px;
-}
-
-.headerListItem{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
 }
 
-.headerListItem.active{
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.headerDesc{
-    margin: 10px;
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
 }
-.headerBtn{
-    background-color: darkcyan;
-    color: white;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
+
+.headerDesc {
+  margin: 10px;
+}
+.headerBtn {
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .headerSearch {
-    height: 30px;
-    margin-top: 20px;
-    background-color: white;
-    border: 3px solid burlywood;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: -25px;
-    width: 1024px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: white;
+  border: 3px solid burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -25px;
+  max-width: 100%;
+  width: 1024px;
 }
-.headerIcon{
-    color: lightgray;
-}
-
-.headerSearchItem{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.headerIcon {
+  color: lightgray;
 }
 
-.headerSearchInput{
-    border: none;
-    outline: none;
-}
-.headerSearchText{
-    color: lightgray;
-    cursor: pointer;
-}
-.date{
-    position: absolute;
-    top: 40px;
-    z-index: 2;
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.options{
-    position: absolute;
-    top: 40px;
-    background-color: white;
-    color: gray;
-    border-radius: 10px;
-    box-shadow: 6px 7px 5px 0px rgba(148,135,135,0.75);
-    -webkit-box-shadow: 6px 7px 5px 0px rgba(148,135,135,0.75);
-    -moz-box-shadow: 6px 7px 5px 0px rgba(148,135,135,0.75);
-    z-index: 2;
-
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+.date {
+  position: absolute;
+  top: 40px;
+  z-index: 2;
 }
 
-.optionItem{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin: 10px;
+.options {
+  position: absolute;
+  top: 40px;
+  background-color: white;
+  color: gray;
+  border-radius: 10px;
+  box-shadow: 6px 7px 5px 0px rgba(148, 135, 135, 0.75);
+  -webkit-box-shadow: 6px 7px 5px 0px rgba(148, 135, 135, 0.75);
+  -moz-box-shadow: 6px 7px 5px 0px rgba(148, 135, 135, 0.75);
+  z-index: 2;
+}
 
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
 }
-.optionCounter{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 12px;
-    color: black;
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
 }
-.optionCounterBtn{
-    border-radius: 5px;
-    background-color: white;
-    border-color: #003580;
-    cursor: pointer;
-    
+.optionCounterBtn {
+  border-radius: 5px;
+  background-color: white;
+  border-color: #003580;
+  cursor: pointer;
 }
-.optionCounterBtn:disabled{
-    cursor: not-allowed;
+.optionCounterBtn:disabled {
+  cursor: not-allowed;
 }

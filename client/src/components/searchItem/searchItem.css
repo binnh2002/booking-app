@@ -1,0 +1,18 @@
+.searchItem {
+  border: 2px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.siImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.siDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 2;
+}
