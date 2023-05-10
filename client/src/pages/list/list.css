@@ -19,12 +19,14 @@
   padding: 10px;
   border-radius: 10px;
   gap: 10px;
+  height: max-content;
 }
 
 .listTitle {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .lsItem {

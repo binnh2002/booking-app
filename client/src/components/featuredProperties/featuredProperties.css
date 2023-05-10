@@ -1,18 +1,21 @@
-.fp{
-    width: 100%;
-    max-width: 1024px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.fp {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.fpItem{
-    flex: 1;
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
+.fpItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.fpName {
+  font-size: 16px;
 }
 
-.fpImg{
-    width: 100%;
+.fpImg {
+  width: 100%;
 }
